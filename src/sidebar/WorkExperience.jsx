@@ -12,8 +12,8 @@ const WorkExperience = ({handleChange}) => {
             <span className='checkmark'></span>Any experience
         </label>
 
-        <InputField handleChange={handleChange} value="Internship" title="Internship" name="test" />
-        <InputField handleChange={handleChange} value="Work remotely" title="Work remotely" name="test" />
+        <InputField handleChange={handleChange} value="internship" title="Internship" name="test" />
+        <InputField handleChange={handleChange} value="work remotely" title="Work remotely" name="test" />
         
 
 

@@ -3,6 +3,7 @@ import Banner from "../components/Banner"
 import Card from "../components/Card"
 import Jobs from "./Jobs"
 import Sidebar from "../sidebar/Sidebar"
+import NewsLetter from "../components/NewsLetter"
 
 const Home = () => {
   const [selectedCategory, setSeletedCategory] = useState(null)
@@ -79,8 +80,9 @@ const Home = () => {
         experienceLevel.toLowerCase() === selected.toLowerCase() ||
         salaryType.toLowerCase() === selected.toLowerCase() ||
         employmentType.toLowerCase() === selected.toLowerCase()
+       
       ));
-      console.log(filteredJobs);
+      console.log(filteredItems);
     }
     //slice the data based on current page 
     const {startIndex, endIndex} = calculatePageRange();
@@ -124,7 +126,9 @@ const Home = () => {
           </div>
 
           {/* right side */}
-          <div className="bg-white p-4 rounded">Right</div>
+          <div className="bg-white p-4 rounded">
+            <NewsLetter/>
+          </div>
          
         </div>
     </div>
