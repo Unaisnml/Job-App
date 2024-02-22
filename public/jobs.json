@@ -65,7 +65,7 @@
       "salaryType": "Yearly",
       "jobLocation": "London",
       "postingDate": "2023-10-28",
-      "experienceLevel": "Intership",
+      "experienceLevel": "Internship",
       "employmentType": "Full-time",
       "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
     },
@@ -79,7 +79,7 @@
       "salaryType": "Yearly",
       "jobLocation": "Boston",
       "postingDate": "2023-10-05",
-      "experienceLevel": "Intership",
+      "experienceLevel": "Internship",
       "employmentType": "Temporary",
       "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
     },
@@ -120,7 +120,7 @@
       "maxPrice": "50",
       "salaryType": "Yearly",
       "jobLocation": "Seattle",
-      "postingDate": "2023-10-28",
+      "postingDate": "2024-02-16",
       "experienceLevel": "Any experience",
       "employmentType": "Full-time", 
       "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
@@ -134,7 +134,7 @@
       "maxPrice": "50",
       "salaryType": "Monthly",
       "jobLocation": "London",
-      "postingDate": "2023-10-05",
+      "postingDate": "2024-02-22",
       "experienceLevel": "Work remotely",
       "employmentType": "Part-time",
       "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
@@ -149,7 +149,7 @@
       "salaryType": "Yearly",
       "jobLocation": "London",
       "postingDate": "2023-10-28",
-      "experienceLevel": "Intership",
+      "experienceLevel": "Internship",
       "employmentType": "Full-time",
       "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
     },
@@ -162,8 +162,8 @@
       "maxPrice": "120",
       "salaryType": "Yearly",
       "jobLocation": "Boston",
-      "postingDate": "2022-10-05",
-      "experienceLevel": "Intership",
+      "postingDate": "2024-02-05",
+      "experienceLevel": "Internship",
       "employmentType": "Temporary",
       "description": "Mollit in laborum tempor Lorem incididunt irure. Aute eu ex ad sunt. Pariatur sint culpa do incididunt eiusmod eiusmod culpa. laborum tempor Lorem incididunt."
     }
