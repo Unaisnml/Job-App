@@ -82,7 +82,7 @@ const Home = () => {
         employmentType.toLowerCase() === selected.toLowerCase()
        
       ));
-      console.log(filteredItems);
+      console.log(filteredJobs);
     }
     //slice the data based on current page 
     const {startIndex, endIndex} = calculatePageRange();
@@ -91,6 +91,7 @@ const Home = () => {
    }
 
   const result = filteredData(jobs, selectedCategory, query)
+  console.log(result);
   return (
     <div>
         <Banner query={query} handleInputChange={handleInputChange}/>
