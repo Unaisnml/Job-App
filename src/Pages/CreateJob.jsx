@@ -6,14 +6,26 @@ const CreateJob = () => {
     const [selectedOption, setSelectedOption] = useState(null)
     const {
         register,
-        handleSubmit,
+        handleSubmit, reset,
         watch,
         formState: { errors },
     } = useForm()
 
     const onSubmit = (data) => {
         data.skills = selectedOption
-        console.log(data)
+        // console.log(data)
+        fetch("http://localhost:5000/post-job", {
+            method:"POST",
+            headers: {'content-type': 'application/json'},
+            body: JSON.stringify(data)
+        }).then((res) => res.json())
+            .then((result)=> {
+                console.log(result)
+                 if(result.acknowledged === true) {
+                    alert("Job Posted Successfully" )
+                 }
+                 reset()
+            })
     }
 
     const options = [
@@ -29,7 +41,6 @@ const CreateJob = () => {
 
     ]
 
-    console.log(watch("example")) // watch input value by passing the name of it
     return (
         <div className='max-w-screen-2xl container mx-auto xl:px-24 px-4'>
             {/* form */}
