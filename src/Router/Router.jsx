@@ -3,6 +3,11 @@ import App from "../App";
 import Home from "../Pages/Home";
 import CreateJob from "../Pages/CreateJob";
 import MyJobs from "../Pages/MyJobs";
+import SalaryPage from "../Pages/SalaryPage";
+import UpdateJob from "../Pages/UpdateJob";
+import Login from "../components/Login";
+import Signup from "../components/Signup";
+
 
 const router = createBrowserRouter([
     {
@@ -11,7 +16,12 @@ const router = createBrowserRouter([
         children: [
             {path: "/", element:<Home/>},
             {path: "/post-job", element:<CreateJob/>},
-            {path:"/my-job", element: <MyJobs/>}
+            {path:"/my-job", element: <MyJobs/>},
+            {path:"/salary", element:<SalaryPage/>},
+            {path:"/edit-job/:id", element:<UpdateJob/>,
+            loader:({params})=>fetch(`http://localhost:5000/all-jobs/${params.id}`)},
+            {path:'/login' , element:<Login/>},
+            {path:'/sign-up' , element:<Signup/>}
         ]
     },
 ]);
